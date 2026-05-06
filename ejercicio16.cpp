@@ -29,7 +29,7 @@ int main()
         cout << "Ingrese su contrasena" << endl;
         cin >> contrasena;
 
-        else if (intentos == 0)
+        if (intentos == 0)
         {
             cout << "Se han terminado sus intentos, su cuenta esta bloqueada" << endl;
         }
